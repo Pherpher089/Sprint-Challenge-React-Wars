@@ -7,21 +7,28 @@
 
 .card{
     width: 35rem;
-    height: 25rem;
+    height: 22rem;
     margin: 1rem;
-    background-color: white;
+    background-color: rgb(49, 49, 49);
+    border: 1px solid black;
     border-radius: 8px;
 
     display: flex;
     flex-direction: column;
 
+    color: rgb(0, 255, 0);
+    
+}
+
+.card h1{
+    font-size: 2rem;
 }
 
 .card-basic-info{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .card-basic-info div{
